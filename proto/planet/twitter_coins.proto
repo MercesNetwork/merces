@@ -1,0 +1,11 @@
+syntax = "proto3";
+package mercestoken.planet.planet;
+
+option go_package = "github.com/MercesToken/planet/x/planet/types";
+
+message TwitterCoins {
+  string index = 1; 
+  int64 amount = 2; 
+  
+}
+

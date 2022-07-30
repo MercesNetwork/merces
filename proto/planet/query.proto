@@ -1,0 +1,95 @@
+syntax = "proto3";
+package mercestoken.planet.planet;
+
+import "gogoproto/gogo.proto";
+import "google/api/annotations.proto";
+import "cosmos/base/query/v1beta1/pagination.proto";
+import "planet/params.proto";
+import "planet/twitter_coins.proto";
+import "planet/dns_registry.proto";
+// this line is used by starport scaffolding # 1
+
+option go_package = "github.com/MercesToken/planet/x/planet/types";
+
+// Query defines the gRPC querier service.
+service Query {
+  // Parameters queries the parameters of the module.
+  rpc Params(QueryParamsRequest) returns (QueryParamsResponse) {
+    option (google.api.http).get = "/MercesToken/planet/planet/params";
+  }
+  // Queries a TwitterCoins by index.
+	rpc TwitterCoins(QueryGetTwitterCoinsRequest) returns (QueryGetTwitterCoinsResponse) {
+		option (google.api.http).get = "/MercesToken/planet/planet/twitter_coins/{index}";
+	}
+
+	// Queries a list of TwitterCoins items.
+	rpc TwitterCoinsAll(QueryAllTwitterCoinsRequest) returns (QueryAllTwitterCoinsResponse) {
+		option (google.api.http).get = "/MercesToken/planet/planet/twitter_coins";
+	}
+
+// Queries a DNSRegistry by index.
+	rpc DNSRegistry(QueryGetDNSRegistryRequest) returns (QueryGetDNSRegistryResponse) {
+		option (google.api.http).get = "/MercesToken/planet/planet/dns_registry/{domain}";
+	}
+
+	// Queries a list of DNSRegistry items.
+	rpc DNSRegistryAll(QueryAllDNSRegistryRequest) returns (QueryAllDNSRegistryResponse) {
+		option (google.api.http).get = "/MercesToken/planet/planet/dns_registry";
+	}
+
+
+
+// this line is used by starport scaffolding # 2
+}
+
+// QueryParamsRequest is request type for the Query/Params RPC method.
+message QueryParamsRequest {}
+
+// QueryParamsResponse is response type for the Query/Params RPC method.
+message QueryParamsResponse {
+  // params holds all the parameters of this module.
+  Params params = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryGetTwitterCoinsRequest {
+	  string username = 1;
+	  string index = 2;
+}
+
+message QueryGetTwitterCoinsResponse {
+	TwitterCoins twitterCoins = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllTwitterCoinsRequest {
+	string username = 1;
+	cosmos.base.query.v1beta1.PageRequest pagination = 2;
+}
+
+message QueryAllTwitterCoinsResponse {
+	repeated TwitterCoins twitterCoins = 1 [(gogoproto.nullable) = false];
+	cosmos.base.query.v1beta1.PageResponse pagination = 2;
+}
+
+message QueryGetDNSRegistryRequest {
+	  string domain = 1;
+
+}
+
+message QueryGetDNSRegistryResponse {
+	DNSRegistry dNSRegistry = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllDNSRegistryRequest {
+	cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryAllDNSRegistryResponse {
+	repeated DNSRegistry dNSRegistry = 1 [(gogoproto.nullable) = false];
+	cosmos.base.query.v1beta1.PageResponse pagination = 2;
+}
+
+
+
+
+
+// this line is used by starport scaffolding # 3

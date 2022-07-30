@@ -1,0 +1,49 @@
+syntax = "proto3";
+package mercestoken.planet.planet;
+
+// this line is used by starport scaffolding # proto/tx/import
+import "cosmos/base/v1beta1/coin.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/MercesToken/planet/x/planet/types";
+
+// Msg defines the Msg service.
+service Msg {
+      rpc TransferFromTwitterToWalletByMerces(MsgTransferFromTwitterToWalletByMerces) returns (MsgTransferFromTwitterToWalletByMercesResponse);
+  rpc TransferFromTwitterToTwitterByMerces(MsgTransferFromTwitterToTwitterByMerces) returns (MsgTransferFromTwitterToTwitterByMercesResponse);
+  rpc TransferFromWalletToTwitter(MsgTransferFromWalletToTwitter) returns (MsgTransferFromWalletToTwitterResponse);
+// this line is used by starport scaffolding # proto/tx/rpc
+}
+
+message MsgTransferFromTwitterToWalletByMerces {
+  string creator = 1;
+  string username = 2;
+  string address = 3;
+  string denom = 4;
+  int64 amount = 5;
+}
+
+message MsgTransferFromTwitterToWalletByMercesResponse {
+}
+
+message MsgTransferFromTwitterToTwitterByMerces {
+  string creator = 1;
+  string fromUsername = 2;
+  string toUsername = 3;
+  string denom = 4;
+  int64 amount = 5;
+}
+
+message MsgTransferFromTwitterToTwitterByMercesResponse {
+}
+
+message MsgTransferFromWalletToTwitter {
+  string creator = 1;
+  string username = 2;
+  cosmos.base.v1beta1.Coin coin = 3 [(gogoproto.nullable) = false];
+}
+
+message MsgTransferFromWalletToTwitterResponse {
+}
+
+// this line is used by starport scaffolding # proto/tx/message
