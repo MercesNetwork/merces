@@ -3,7 +3,7 @@
 [![Project Status: Active -- The project is in early stage development.](https://img.shields.io/badge/repo%20status-Active-green.svg?style=flat-square)](https://www.repostatus.org/#active)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Mercesium?style=social)](https://twitter.com/Mercesium)
 
-website : https://mercestoken.com
+website : https://mercestoken.com  
 Reference implementation of Merces, a blockchain for cross-chain DeFi. Built using the cosmos-sdk.
 
 ## Purpose:
