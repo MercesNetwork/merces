@@ -3,8 +3,8 @@ package planet
 import (
 	"fmt"
 
-	"github.com/MercesToken/planet/x/planet/keeper"
-	"github.com/MercesToken/planet/x/planet/types"
+	"github.com/MercesNetwork/merces/x/planet/keeper"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )

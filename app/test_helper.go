@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MercesToken/planet/x/planet/types"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"

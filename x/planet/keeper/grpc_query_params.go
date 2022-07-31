@@ -3,7 +3,7 @@ package keeper
 import (
 	"context"
 
-	"github.com/MercesToken/planet/x/planet/types"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

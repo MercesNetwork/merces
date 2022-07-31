@@ -3,9 +3,9 @@ package planet
 import (
 	"math/rand"
 
-	"github.com/MercesToken/planet/testutil/sample"
-	planetsimulation "github.com/MercesToken/planet/x/planet/simulation"
-	"github.com/MercesToken/planet/x/planet/types"
+	"github.com/MercesNetwork/merces/testutil/sample"
+	planetsimulation "github.com/MercesNetwork/merces/x/planet/simulation"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
 	sdk "github.com/cosmos/cosmos-sdk/types"

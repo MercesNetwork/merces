@@ -3,7 +3,7 @@ package mercestoken.planet.planet;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/MercesToken/planet/x/planet/types";
+option go_package = "github.com/MercesNetwork/merces/x/planet/types";
 
 // Params defines the parameters for the module.
 message Params {

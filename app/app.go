@@ -99,11 +99,11 @@ import (
 	monitoringpkeeper "github.com/tendermint/spn/x/monitoringp/keeper"
 	monitoringptypes "github.com/tendermint/spn/x/monitoringp/types"
 
-	"github.com/MercesToken/planet/docs"
+	"github.com/MercesNetwork/merces/docs"
 
-	planetmodule "github.com/MercesToken/planet/x/planet"
-	planetmodulekeeper "github.com/MercesToken/planet/x/planet/keeper"
-	planetmoduletypes "github.com/MercesToken/planet/x/planet/types"
+	planetmodule "github.com/MercesNetwork/merces/x/planet"
+	planetmodulekeeper "github.com/MercesNetwork/merces/x/planet/keeper"
+	planetmoduletypes "github.com/MercesNetwork/merces/x/planet/types"
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 )
 

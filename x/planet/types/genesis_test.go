@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/MercesToken/planet/x/planet/types"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	"github.com/stretchr/testify/require"
 )
 

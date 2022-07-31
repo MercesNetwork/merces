@@ -3,8 +3,8 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/MercesToken/planet/x/planet/keeper"
-	"github.com/MercesToken/planet/x/planet/types"
+	"github.com/MercesNetwork/merces/x/planet/keeper"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"

@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"testing"
 
-	planetapp "github.com/MercesToken/planet/app"
-	"github.com/MercesToken/planet/x/planet/keeper"
-	"github.com/MercesToken/planet/x/planet/types"
+	planetapp "github.com/MercesNetwork/merces/app"
+	"github.com/MercesNetwork/merces/x/planet/keeper"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"

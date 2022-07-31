@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/MercesToken/planet/x/planet/types"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

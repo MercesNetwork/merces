@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"testing"
 
-	keepertest "github.com/MercesToken/planet/testutil/keeper"
-	"github.com/MercesToken/planet/testutil/nullify"
-	"github.com/MercesToken/planet/x/planet/keeper"
-	"github.com/MercesToken/planet/x/planet/types"
+	keepertest "github.com/MercesNetwork/merces/testutil/keeper"
+	"github.com/MercesNetwork/merces/testutil/nullify"
+	"github.com/MercesNetwork/merces/x/planet/keeper"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

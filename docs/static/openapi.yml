@@ -29801,7 +29801,7 @@ paths:
           format: uint64
       tags:
         - Query
-  /MercesToken/planet/planet/dns_registry:
+  /MercesNetwork/merces/planet/dns_registry:
     get:
       summary: Queries a list of DNSRegistry items.
       operationId: MercestokenPlanetPlanetDNSRegistryAll
@@ -29924,7 +29924,7 @@ paths:
           type: boolean
       tags:
         - Query
-  '/MercesToken/planet/planet/dns_registry/{domain}':
+  '/MercesNetwork/merces/planet/dns_registry/{domain}':
     get:
       summary: Queries a DNSRegistry by index.
       operationId: MercestokenPlanetPlanetDNSRegistry
@@ -29966,7 +29966,7 @@ paths:
           type: string
       tags:
         - Query
-  /MercesToken/planet/planet/params:
+  /MercesNetwork/merces/planet/params:
     get:
       summary: Parameters queries the parameters of the module.
       operationId: MercestokenPlanetPlanetParams
@@ -30002,7 +30002,7 @@ paths:
                   additionalProperties: {}
       tags:
         - Query
-  /MercesToken/planet/planet/twitter_coins:
+  /MercesNetwork/merces/planet/twitter_coins:
     get:
       summary: Queries a list of TwitterCoins items.
       operationId: MercestokenPlanetPlanetTwitterCoinsAll
@@ -30130,7 +30130,7 @@ paths:
           type: boolean
       tags:
         - Query
-  '/MercesToken/planet/planet/twitter_coins/{index}':
+  '/MercesNetwork/merces/planet/twitter_coins/{index}':
     get:
       summary: Queries a TwitterCoins by index.
       operationId: MercestokenPlanetPlanetTwitterCoins

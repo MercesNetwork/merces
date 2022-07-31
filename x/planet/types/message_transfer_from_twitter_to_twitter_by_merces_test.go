@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	"github.com/MercesToken/planet/testutil/sample"
+	"github.com/MercesNetwork/merces/testutil/sample"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/stretchr/testify/require"
 )

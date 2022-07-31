@@ -9,32 +9,32 @@ import "planet/twitter_coins.proto";
 import "planet/dns_registry.proto";
 // this line is used by starport scaffolding # 1
 
-option go_package = "github.com/MercesToken/planet/x/planet/types";
+option go_package = "github.com/MercesNetwork/merces/x/planet/types";
 
 // Query defines the gRPC querier service.
 service Query {
   // Parameters queries the parameters of the module.
   rpc Params(QueryParamsRequest) returns (QueryParamsResponse) {
-    option (google.api.http).get = "/MercesToken/planet/planet/params";
+    option (google.api.http).get = "/MercesNetwork/merces/planet/params";
   }
   // Queries a TwitterCoins by index.
 	rpc TwitterCoins(QueryGetTwitterCoinsRequest) returns (QueryGetTwitterCoinsResponse) {
-		option (google.api.http).get = "/MercesToken/planet/planet/twitter_coins/{index}";
+		option (google.api.http).get = "/MercesNetwork/merces/planet/twitter_coins/{index}";
 	}
 
 	// Queries a list of TwitterCoins items.
 	rpc TwitterCoinsAll(QueryAllTwitterCoinsRequest) returns (QueryAllTwitterCoinsResponse) {
-		option (google.api.http).get = "/MercesToken/planet/planet/twitter_coins";
+		option (google.api.http).get = "/MercesNetwork/merces/planet/twitter_coins";
 	}
 
 // Queries a DNSRegistry by index.
 	rpc DNSRegistry(QueryGetDNSRegistryRequest) returns (QueryGetDNSRegistryResponse) {
-		option (google.api.http).get = "/MercesToken/planet/planet/dns_registry/{domain}";
+		option (google.api.http).get = "/MercesNetwork/merces/planet/dns_registry/{domain}";
 	}
 
 	// Queries a list of DNSRegistry items.
 	rpc DNSRegistryAll(QueryAllDNSRegistryRequest) returns (QueryAllDNSRegistryResponse) {
-		option (google.api.http).get = "/MercesToken/planet/planet/dns_registry";
+		option (google.api.http).get = "/MercesNetwork/merces/planet/dns_registry";
 	}
 
 

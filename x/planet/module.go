@@ -11,9 +11,9 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/MercesToken/planet/x/planet/client/cli"
-	"github.com/MercesToken/planet/x/planet/keeper"
-	"github.com/MercesToken/planet/x/planet/types"
+	"github.com/MercesNetwork/merces/x/planet/client/cli"
+	"github.com/MercesNetwork/merces/x/planet/keeper"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"

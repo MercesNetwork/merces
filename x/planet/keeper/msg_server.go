@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/MercesToken/planet/x/planet/types"
+	"github.com/MercesNetwork/merces/x/planet/types"
 )
 
 type msgServer struct {

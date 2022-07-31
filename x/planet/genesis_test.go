@@ -3,10 +3,10 @@ package planet_test
 import (
 	"testing"
 
-	keepertest "github.com/MercesToken/planet/testutil/keeper"
-	"github.com/MercesToken/planet/testutil/nullify"
-	"github.com/MercesToken/planet/x/planet"
-	"github.com/MercesToken/planet/x/planet/types"
+	keepertest "github.com/MercesNetwork/merces/testutil/keeper"
+	"github.com/MercesNetwork/merces/testutil/nullify"
+	"github.com/MercesNetwork/merces/x/planet"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	"github.com/stretchr/testify/require"
 )
 

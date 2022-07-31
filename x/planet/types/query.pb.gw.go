@@ -515,15 +515,15 @@ func RegisterQueryHandlerClient(ctx context.Context, mux *runtime.ServeMux, clie
 }
 
 var (
-	pattern_Query_Params_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 1, 2, 2}, []string{"MercesToken", "planet", "params"}, "", runtime.AssumeColonVerbOpt(true)))
+	pattern_Query_Params_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3}, []string{"MercesNetwork", "merces", "planet", "params"}, "", runtime.AssumeColonVerbOpt(true)))
 
-	pattern_Query_TwitterCoins_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 1, 2, 2, 1, 0, 4, 1, 5, 3}, []string{"MercesToken", "planet", "twitter_coins", "index"}, "", runtime.AssumeColonVerbOpt(true)))
+	pattern_Query_TwitterCoins_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4}, []string{"MercesNetwork", "merces", "planet", "twitter_coins", "index"}, "", runtime.AssumeColonVerbOpt(true)))
 
-	pattern_Query_TwitterCoinsAll_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 1, 2, 2}, []string{"MercesToken", "planet", "twitter_coins"}, "", runtime.AssumeColonVerbOpt(true)))
+	pattern_Query_TwitterCoinsAll_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3}, []string{"MercesNetwork", "merces", "planet", "twitter_coins"}, "", runtime.AssumeColonVerbOpt(true)))
 
-	pattern_Query_DNSRegistry_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 1, 2, 2, 1, 0, 4, 1, 5, 3}, []string{"MercesToken", "planet", "dns_registry", "domain"}, "", runtime.AssumeColonVerbOpt(true)))
+	pattern_Query_DNSRegistry_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4}, []string{"MercesNetwork", "merces", "planet", "dns_registry", "domain"}, "", runtime.AssumeColonVerbOpt(true)))
 
-	pattern_Query_DNSRegistryAll_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 1, 2, 2}, []string{"MercesToken", "planet", "dns_registry"}, "", runtime.AssumeColonVerbOpt(true)))
+	pattern_Query_DNSRegistryAll_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3}, []string{"MercesNetwork", "merces", "planet", "dns_registry"}, "", runtime.AssumeColonVerbOpt(true)))
 )
 
 var (

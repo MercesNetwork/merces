@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/MercesToken/planet/app"
+	"github.com/MercesNetwork/merces/app"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 	"github.com/ignite-hq/cli/ignite/pkg/cosmoscmd"
 )

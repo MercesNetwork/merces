@@ -3,8 +3,8 @@ package keeper_test
 import (
 	"testing"
 
-	testkeeper "github.com/MercesToken/planet/testutil/keeper"
-	"github.com/MercesToken/planet/x/planet/types"
+	testkeeper "github.com/MercesNetwork/merces/testutil/keeper"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	"github.com/stretchr/testify/require"
 )
 

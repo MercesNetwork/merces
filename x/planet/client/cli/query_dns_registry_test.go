@@ -12,10 +12,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/MercesToken/planet/testutil/network"
-	"github.com/MercesToken/planet/testutil/nullify"
-	"github.com/MercesToken/planet/x/planet/client/cli"
-	"github.com/MercesToken/planet/x/planet/types"
+	"github.com/MercesNetwork/merces/testutil/network"
+	"github.com/MercesNetwork/merces/testutil/nullify"
+	"github.com/MercesNetwork/merces/x/planet/client/cli"
+	"github.com/MercesNetwork/merces/x/planet/types"
 )
 
 // Prevent strconv unused error

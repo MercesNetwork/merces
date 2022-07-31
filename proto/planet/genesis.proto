@@ -7,7 +7,7 @@ import "planet/twitter_coins.proto";
 import "planet/dns_registry.proto";
 // this line is used by starport scaffolding # genesis/proto/import
 
-option go_package = "github.com/MercesToken/planet/x/planet/types";
+option go_package = "github.com/MercesNetwork/merces/x/planet/types";
 
 // GenesisState defines the planet module's genesis state.
 message GenesisState {

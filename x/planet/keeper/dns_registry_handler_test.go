@@ -12,8 +12,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/MercesToken/planet/x/planet/keeper"
-	"github.com/MercesToken/planet/x/planet/types"
+	"github.com/MercesNetwork/merces/x/planet/keeper"
+	"github.com/MercesNetwork/merces/x/planet/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

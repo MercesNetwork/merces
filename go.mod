@@ -1,4 +1,4 @@
-module github.com/MercesToken/planet
+module github.com/MercesNetwork/merces
 
 go 1.16
 
