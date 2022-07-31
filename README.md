@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![Project Status: Active -- The project is in early stage development.](https://img.shields.io/badge/repo%20status-Active-green.svg?style=flat-square)](https://www.repostatus.org/#wip)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Mercesium?style=social)](https://twitter.com/Mercesium)
 
 </div>
