@@ -1,26 +1,25 @@
-# Merces
-
 ![Banner!](assets/banner.png)
 
 [![Project Status: Active -- The project is in early stage development.](https://img.shields.io/badge/repo%20status-Active-green.svg?style=flat-square)](https://www.repostatus.org/#active)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Mercesium?style=social)](https://twitter.com/Mercesium)
 
 website : https://mercestoken.com
+Reference implementation of Merces, a blockchain for cross-chain DeFi. Built using the cosmos-sdk.
 
 ## Purpose:
 
 ### The project:
-Reshape every users of every website as a Banking Account
+Merces is a The SocialMedia Banking Account Maker.
+It Reshape every users of every website as a Banking Account.
+His first purpose is to manage transfer from Wallet to Social Media Accounts.
+Any people receiving Coin on his Social Media can transfer received money on his Main Wallet.
 
 ### For websites
 Enable crypto owner to make transfer to my users
 
 ### For users
-Creating content then let user to transfer money to my account without requiring any information
+Creating web content, build Community and get support from them transfering money to my account without requiring any information
 
-Merces is a The SocialMedia Banking Account Maker.
-His first purpose is to manage transfer from Wallet to Social Media Accounts.
-Any people receiving Coin on his Social Media can transfer received money on his Main Wallet.
 
 ## Concepts:
 
